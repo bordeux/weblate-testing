@@ -16,4 +16,8 @@ class SampleClass
     public function helloYou() {
         echo _("Hello You");
     }
+
+    public function helloMartin() {
+        echo _("Hello Martin");
+    }
 }
