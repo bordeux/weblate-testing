@@ -6,7 +6,9 @@
             "email": "chris@tourradar.com"
         }
     ],
-    "require": {},
+    "require": {
+      "ext-gettext": "*"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/"

@@ -13,14 +13,14 @@ class SampleClass
     }
 
     public function helloWorld() {
-        echo _("Hello World");
+        echo translate("Hello World");
     }
 
     public function helloYou() {
-        echo _("Hello You");
+        echo translate("Hello You");
     }
 
     public function helloMartin() {
-        echo _("Hello Martin");
+        echo translate("Hello Martin", "sample");
     }
 }

@@ -13,14 +13,14 @@ class HomepageClass
     }
 
     public function helloWorld() {
-        echo _("Hello HomePage");
+        echo translate("Hello HomePage");
     }
 
     public function helloYou() {
-        echo _("Hello You from HomePage");
+        echo translate("Hello You from HomePage");
     }
 
     public function helloMartin() {
-        echo _("Hello Martin from HomePage");
+        echo translate("Hello Martin from HomePage", "homepage");
     }
 }
